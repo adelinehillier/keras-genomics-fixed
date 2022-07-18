@@ -3,14 +3,14 @@ from __future__ import division
 from __future__ import print_function
 
 from keras.layers import Layer, InputSpec
-from keras.layers.normalization import BatchNormalization
+from keras.layers import BatchNormalization
 from keras import initializers
 from keras import regularizers
 from keras import constraints
 from keras import backend as K
 
 
-class RevCompConv1DBatchNorm(BatchNormalization):
+class RevCompConv1DBatchNorm():
     '''Batch norm that shares weights over reverse complement channels
     '''
 
