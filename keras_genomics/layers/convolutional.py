@@ -1,8 +1,8 @@
 from __future__ import absolute_import
 
 from keras.layers.convolutional import Conv1D
-from keras.engine import Layer
-from keras.engine import InputSpec
+from keras.layer import Layer
+from keras.layer import InputSpec
 from keras.utils import conv_utils
 from keras import backend as K
 from keras import initializers
