@@ -9,8 +9,7 @@ from keras import regularizers
 from keras import constraints
 from keras import backend as K
 
-
-class RevCompConv1DBatchNorm():
+class RevCompConv1DBatchNorm(BatchNormalization):
     '''Batch norm that shares weights over reverse complement channels
     '''
 
